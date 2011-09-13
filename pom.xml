@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>5</version>
+  </parent>
   <groupId>org.cloudhoist</groupId>
   <artifactId>cljs</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.1-SNAPSHOT</version>
   <name>cljs</name>
   <description>
     ClojureScript in a jar. Note that the release numbers are unofficial.
@@ -78,6 +83,32 @@
     </repository>
   </repositories>
 
+<<<<<<< HEAD
+=======
+  <distributionManagement>
+    <repository>
+      <id>sonatype-nexus-staging</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+      <uniqueVersion>false</uniqueVersion>
+    </repository>
+    <snapshotRepository>
+      <id>${snapshotRepository.id}</id>
+      <url>${snapshotRepository.url}</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <developers>
+    <developer>
+      <name>clojure/core</name>
+      <id>core</id>
+      <roles>
+        <role>PMC</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+  </developers>
+
+>>>>>>> release/0.1.0
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
