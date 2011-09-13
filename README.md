@@ -1,3 +1,10 @@
+# What is this repo?
+
+This is a fork of clojurescript, that includes a pom.xml for building a jar file
+of clojurescript. This jar is used by [zi-cljs](https://github.com/pallet/zi-cljs),
+a maven plugin for working with clojurescript. It could be used by any maven
+repository aware build tool.
+
 ## What is ClojureScript? ##
 
 ClojureScript is a new compiler for [Clojure](http://clojure.org) that targets JavaScript. It is designed to emit JavaScript code which is compatible with the advanced compilation mode of the [Google Closure](http://code.google.com/closure/) optimizing compiler.
