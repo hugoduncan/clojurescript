@@ -83,8 +83,6 @@
     </repository>
   </repositories>
 
-<<<<<<< HEAD
-=======
   <distributionManagement>
     <repository>
       <id>sonatype-nexus-staging</id>
@@ -108,7 +106,6 @@
     </developer>
   </developers>
 
->>>>>>> release/0.1.0
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
