@@ -8,7 +8,7 @@
   </parent>
   <groupId>org.cloudhoist</groupId>
   <artifactId>cljs</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
   <name>cljs</name>
   <description>
     ClojureScript in a jar. Note that the release numbers are unofficial.
